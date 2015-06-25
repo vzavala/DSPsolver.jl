@@ -1,6 +1,6 @@
 # DSPsolver
 
-The DSPsolver.jl package provides an interface for using an open-source software package [DSP](https://github.com/kibaekkim/DSP) for solving stochastic mixed-integer programming problems from the [Julia](http://julialang.org) language. You need to download and install DSP package.
+The DSPsolver.jl package provides an interface for using [DSP](https://github.com/kibaekkim/DSP), a software package for solving stochastic mixed-integer programming problems using the [Julia](http://julialang.org) language. You need to download and install DSP package.
 
 This package requires the StochJuMP.jl and MPI.jl packages for Julia. The [StochJuMP.jl](https://github.com/kibaekkim/StochJuMP.jl) package provides a scalable algebraic modeling tool for stochastic programming. The [MPI.jl](https://github.com/JuliaParallel/MPI.jl) package enables the Julia script to run on a distributed computing system via MPI communication.
 
